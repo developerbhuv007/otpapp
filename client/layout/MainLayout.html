@@ -1,0 +1,9 @@
+<!-- Layout which gets template name dynamically to display -->
+
+
+<template name="MainLayout">
+	{{> Header}}
+	<main class="main-layout">
+		{{> Template.dynamic template=main}}
+ 	</main>
+</template>
